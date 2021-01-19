@@ -45,6 +45,7 @@ function setup(){
 function draw(){
     background(backgroundImg);
     Engine.update(engine);
+    text("press SPACEBAR to give yourself a second chance",400,30)
     //strokeWeight(4);
     box1.display();
     box2.display();
